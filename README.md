@@ -1,3 +1,9 @@
+Projeto onde consumo a API do vímeo para pegar os vídeos de uma conta privada,
+montar uma grade vídeos, que seja sincronizada com as atualizações dos vídeos
+no Vímeo.
+
+
+
 vimeo.php
 =========
 **Vimeo.php** is a library for interacting with the latest version of the [Vimeo](https://vimeo.com) API.
