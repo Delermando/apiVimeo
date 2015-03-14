@@ -1,0 +1,41 @@
+.vim {
+    display: block;
+    margin: 40px auto;
+}
+form {
+    background-color: #ddd;
+    display: block;
+    margin: 20px auto;
+    padding: 15px;
+    width: 400px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, select {
+    border-style: groove;
+    font-size: 16px;
+    height: 25px;
+    margin-bottom: 10px;
+    width: 400px;
+    /*css3 border radius*/
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+ 
+    /* CSS3 Box sizing property */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ 
+input[type=submit], input[type=file]{
+    cursor: pointer;
+    font-weight: bold;
+    height: 35px;
+    padding: 5px;
+}
